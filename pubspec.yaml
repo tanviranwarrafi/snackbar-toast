@@ -1,19 +1,18 @@
-name: snackbar_and_toast
+name: tutorial
 description: SnackBar and Toast Example In Flutter
 
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: 'none'
 
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: ^3.5.1
 
 dependencies:
   flutter:
     sdk: flutter
 
-  cupertino_icons: ^0.1.3
-  fluttertoast: ^4.0.0
+  fluttertoast: ^8.2.8
 
 dev_dependencies:
   flutter_test:
@@ -21,9 +20,7 @@ dev_dependencies:
 
 
 flutter:
-
   uses-material-design: true
 
-  # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/
